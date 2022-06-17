@@ -30,7 +30,6 @@ class ViewController: UIViewController {
         trafficLightButton.layer.cornerRadius = 10
     }
     
-
     @IBAction func trafficLightButtonTapped() {
         numbersOfTaps += 1
         trafficLightButton.setTitle("NEXT", for: .normal)
