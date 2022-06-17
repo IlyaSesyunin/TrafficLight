@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     
     @IBOutlet var trafficLightButton: UIButton!
     
+    var numbersOfTaps = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         redLightView.alpha = 0.3
@@ -28,8 +30,7 @@ class ViewController: UIViewController {
         trafficLightButton.layer.cornerRadius = 10
     }
     
-    var numbersOfTaps = 0
-    
+
     @IBAction func trafficLightButtonTapped() {
         numbersOfTaps += 1
         trafficLightButton.setTitle("NEXT", for: .normal)
