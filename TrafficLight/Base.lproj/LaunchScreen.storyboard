@@ -19,7 +19,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="Nws-Xs-BFB">
                                 <rect key="frame" x="16" y="409.33333333333331" width="396" height="107.66666666666669"/>
-                                <string key="text">Homework 2.02
+                                <string key="text">Traffic Light
 by Ilya Sesyunin</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
                                 <color key="textColor" name="AccentColor"/>
